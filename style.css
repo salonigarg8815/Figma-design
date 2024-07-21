@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    /* gap between border and outline */
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CD6346 !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+/* -----------------
+custom css design
+--------------------- */
+/* h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: maroon;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    color: maroon;
+    line-height: 3rem;
+}
+
+h4 {
+    color: maroon;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    color: red;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+} */
+
+.main-btn {
+    padding: 8px 24px 8px 24px;
+    border-radius: 15px;
+    background-color: #CD6346;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin: 14px 0px;
+}
+
+.white-btn {
+    padding: 8px 24px 8px 24px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #CD6346;
+    font-weight: 600;
+    border: none;
+    margin: 14px 20px 10px 14px;
+}
+
+
+
+.wrapper {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+
+
+
+
+/* --------------------
+      header design
+   -------------------- */
+.navbar-toogler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.navbar-brand span {
+    font-size: 28.04px;
+    font-weight: 700;
+    line-height: 57.06px;
+    color: #333333;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 57.06px;
+    color: #1D1E1C;
+
+}
+
+.nav-item {
+    padding: 0px 6px;
+    transition: all 200ms linear;
+}
+
+/* --------------------
+     Banner-section
+   -------------------- */
+
+.banner-con h4 {
+    font-size: 76px;
+    font-weight: 400;
+    color: #1D1E1C;
+}
+
+.banner-con p {
+    font-size: 14.1px;
+    font-weight: 500;
+    color: #1D1E1C;
+    text-align: justified;
+}
+
+.banner-img .ban-img1 img {
+    width: 80%;
+    padding-top: 50px;
+}
+
+.banner-img .ban-img2 img {
+    width: 80%;
+}
+
+/* --------------------
+      header design
+   -------------------- */
+.content-section {
+    padding-bottom: 4.25rem;
+}
+
+.content-section p {
+    font-size: 26.16px;
+    font-weight: 500;
+    line-height: 38.24px;
+    text-align: justified;
+    color: #333333;
+}
+
+
+/* --------------------
+      About-section
+   -------------------- */
+.about-sec .map-img1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-right: 1px solid #acabab;
+}
+
+.about-sec .map-img1 button {
+    color: #000000;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.about-sec .map-img1 img {
+    width: 80%;
+}
+
+.about-sec .map-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+
+.about-sec .map-img2 button {
+
+    color: #000000;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.about-sec .map-img2 img {
+    width: 80%;
+}
+
+.truck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.truck-img1 {
+    position: relative;
+}
+
+.truck-img1 img {
+    width: 70%;
+}
+
+.truck-img1 p {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 16px;
+    color: #fff;
+}
+
+.truck-img2 {
+    position: relative;
+}
+
+.truck-img2 img {
+    width: 80%;
+
+}
+
+.truck-img2 p {
+    position: absolute;
+    top: 42%;
+    left: 24%;
+    font-size: 16px;
+    color: #fff;
+}
+
+.truck-img3 {
+    position: relative;
+}
+
+.truck-img3 img {
+    width: 98%;
+
+}
+
+.truck-img3 p {
+    position: absolute;
+    top: 42%;
+    left: 28%;
+    font-size: 16px;
+    color: #fff;
+}
+
+.truck-img4 {
+    position: relative;
+}
+
+.truck-img4 img {
+    width: 82%;
+
+}
+
+.truck-img4 p {
+    position: absolute;
+    top: 90%;
+    left: 28%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    border: 1px solid #56A6D8;
+    border-radius: 10px;
+}
+
+.fuel-container .fuel-con1 {
+    width: 78%;
+}
+
+.border-class {
+    border-left: 1px solid #acabab;
+}
+
+.fuel-container .fuel-con1 .omc .card {
+    padding: 6px 24px 0px 24px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0.79px 4.71px 0px #00000040;
+    border-radius: 23.56px;
+}
+
+.fuel-container .fuel-con1 .omc .card h5 {
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 6px;
+}
+
+.fuel-container .fuel-con1 .omc button {
+    padding: 8px 24px 8px 24px;
+    border-radius: 11px;
+    background-color: #89BEB2;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin: 14px 0px 14px 20px;
+}
+
+.fuel-container .fuel-con1 .omc {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    padding: 0px 8px;
+}
