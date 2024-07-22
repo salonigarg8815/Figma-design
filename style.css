@@ -13,7 +13,6 @@
 :hover,
 :focus {
     outline: 0 !important;
-    /* gap between border and outline */
     outline-offset: 0;
 }
 
@@ -36,47 +35,28 @@ body {
 /* -----------------
 custom css design
 --------------------- */
-/* h1 {
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 3rem;
-    color: maroon;
-}
-
-h2 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    text-transform: capitalize;
-    font-family: 'Quicksand', sans-serif;
-    color: maroon;
-    line-height: 3rem;
-}
 
 h4 {
-    color: maroon;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 800;
-    margin-bottom: 0.5rem;
+
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    color: #333333;
 }
 
 h5 {
-    color: red;
-    text-transform: capitalize;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #333333;
 }
 
-p {
-    font-size: 1rem;
-    color: black;
-    font-weight: 400;
-    line-height: 1.75rem;
-    letter-spacing: 1px;
-} */
+h6 {
+    font-size: 24.85px;
+    font-weight: 500;
+    text-align: center;
+    color: #252525;
+}
 
 .main-btn {
     padding: 8px 24px 8px 24px;
@@ -98,15 +78,10 @@ p {
     margin: 14px 20px 10px 14px;
 }
 
-
-
 .wrapper {
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
 }
-
-
-
 
 /* --------------------
       header design
@@ -129,7 +104,6 @@ p {
     font-weight: 600;
     line-height: 57.06px;
     color: #1D1E1C;
-
 }
 
 .nav-item {
@@ -140,7 +114,6 @@ p {
 /* --------------------
      Banner-section
    -------------------- */
-
 .banner-con h4 {
     font-size: 76px;
     font-weight: 400;
@@ -160,7 +133,7 @@ p {
 }
 
 .banner-img .ban-img2 img {
-    width: 80%;
+    width: 90%;
 }
 
 /* --------------------
@@ -246,7 +219,6 @@ p {
 
 .truck-img2 img {
     width: 80%;
-
 }
 
 .truck-img2 p {
@@ -280,7 +252,6 @@ p {
 
 .truck-img4 img {
     width: 82%;
-
 }
 
 .truck-img4 p {
@@ -332,4 +303,125 @@ p {
     font-weight: 600;
     color: #333333;
     padding: 0px 8px;
+}
+
+/* EPR-section */
+.EPR-section {
+    margin: 80px 0px 80px 30px;
+    margin-left: 100px;
+    padding: 40px;
+    background-color: #89BEB2;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.EPR-con {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 60px 20px;
+}
+
+.EPR-con h4 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #333333;
+    text-align: left !important;
+}
+
+.EPR-img {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 440px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.EPR-img img {
+    width: 80%;
+    padding-top: 40px;
+}
+
+/* <!-- innovatio-section --> */
+.inno-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 25.23px 37.85px 0px #0000000D;
+}
+
+.inno-sec p {
+    font-size: 18.28px;
+    font-weight: 400;
+    color: #9D9D9D;
+    text-align: center;
+}
+
+/* solution-section */
+.solution-section img {
+    width: 98%;
+}
+
+/* recycle-section */
+.recycle-section img {
+    width: 80%;
+}
+
+/* footer-section */
+.footer-section {
+    background-color: #CD6346;
+}
+
+.box {
+    width: 50%;
+    margin-left: 310px;
+}
+
+.box h4 {
+    color: #fff;
+    font-size: 34px;
+}
+
+.btn-box {
+    width: 50%;
+    margin-left: 540px;
+}
+
+.btn-box button {
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-sec2 {
+    background-color: #85B7A5;
+    padding: 48px 30px;
+}
+
+.foot-con {
+    font-size: 12px;
+}
+
+.foot-con i {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.foot-link a {
+    display: block;
+    text-align: left;
+    font-size: 16.04px;
+    font-weight: 400;
+    color: #252525;
+    padding-left: 60px;
+}
+
+.Contact-sec p {
+    font-size: 12px;
+    padding: 0px 40px;
+}
+
+.copy-right-sec {
+    font-size: 14px;
+    color: #fff;
 }
